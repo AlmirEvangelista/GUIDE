@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.50%;
+}
+
+body::before{
+  content: '';
+  width: 100%;
+  height: 250px;
+  background-color: #F29944;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+body{
+  background-color: #f4eded;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.page{
+  display: grid;
+  grid-template-columns: 0.5fr 3fr;
+  grid-template-areas: "menu main"
+                        "menu main"
+                        "menu main";
+}
+
+
+
+aside{
+  background-color: #ffffff;
+  height: 100vh;
+  grid-area: menu;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: 2rem;
+}
+
+.menu a{
+  font-size: 2rem;
+  text-decoration: none;
+  color: #878686;
+}
+
+.user{
+  margin: 18rem 0  0 8rem;
+}
+
+.user img{
+  height: 130px;
+}
+
+.user h1{
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+
+.trends{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 0 8rem ;
+  gap: 0.5rem;
+}
+
+.trends h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.trends a{
+  font-size: 2rem;
+  color: #000000;
+  text-decoration: none;
+}

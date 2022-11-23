@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Epilogue', sans-serif;
+  background: #FFF9E9;
+}
+
+main{
+  display: flex;
+  gap: 64px;
+}
+
+.aside{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15rem;
+}
+
+#logo{
+  width: 305px;
+  height: 309px;
+}
+
+#img{
+  width: 625px;
+  height: 416px;
+}
+
+.login{
+  margin: 20rem auto;
+}
+
+.login h2{
+  font-size: 3rem; 
+  line-height: 3rem;
+  color: #B59030;
+  text-align: center;
+}
+
+.button-wrapper{
+  margin-top: 5rem;
+  display: flex;
+  gap: 2.5rem;
+  padding: 0 5rem;
+}
+
+.button-wrapper button{
+  width: 16rem;
+  height: 4.5rem;
+  border: none;
+  border-radius: 8px;
+}
+
+a{
+  color: #FAFDFF;
+  text-decoration: none;
+}
+
+#face{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5856D6;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #ffffff;
+  background-image: url(./imgs/logoface.svg);
+  background-repeat: no-repeat;
+  background-position-x: 12px;
+  background-position-y: center;
+  cursor: pointer;
+}
+
+#twitter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00BCD4;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #ffffff;
+  background-image: url(./imgs/logotwitter.png);
+  background-repeat: no-repeat;
+  background-position-x: 12px;
+  background-position-y: center;
+  cursor: pointer;
+}
+
+#google{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #D84226;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #ffffff;
+  background-image: url(./imgs/logo-google.svg);
+  background-repeat: no-repeat;
+  background-position-x: 12px;
+  background-position-y: center;
+  cursor: pointer;
+}
+
+p{
+  margin-top: 3.5rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+fieldset{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: none;
+}
+
+label{
+  display: none;
+}
+
+#user{
+  height: 4.7rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #e6e0e0;
+  padding-left: 15px;
+}
+
+#password{
+  height: 4.7rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #e6e0e0;
+  padding-left: 15px;
+}
+
+a{
+  font-size: 1.4rem;
+}
+
+button{
+  margin-top: 10px;
+  height: 5rem;
+  border-radius: 10px;
+  border: none;
+  background: #3154B5;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #516fc3;
+}
